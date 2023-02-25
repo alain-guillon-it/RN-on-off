@@ -9,12 +9,12 @@ export default function App() {
 		<View style={styles.container}>
 			{bulbState ? (
 				<Image
-					source={require('./assets/images/bulb_on.png')}
+					source={require('./assets/images/bulb_on.jpg')}
 					style={{ width: '100%', height: '90%' }}
 				/>
 			) : (
 				<Image
-					source={require('./assets/images/bulb_off.png')}
+					source={require('./assets/images/bulb_off.jpg')}
 					style={{ width: '100%', height: '90%' }}
 				/>
 			)}
